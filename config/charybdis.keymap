@@ -193,7 +193,7 @@
 //                                                          52            49                 53
 //                                                        ╰─────────────┴─────────────╯    ╰─────────────╯
 
-    base_layer {
+    qwerty_layer {
       label = "QWERTY";
       display-name = "Base";
       bindings = <
@@ -212,7 +212,7 @@
       >;
     };
 
-    pointer_layer {
+    functional_layer {
       label = "FUNCTIONAL";
       display-name = "Functional";
       bindings = <
@@ -231,7 +231,7 @@
       >;
     };
 
-    lower_layer {
+    symbols_layer {
       label = "SYMBOLS";
       display-name = "Symbols";
       bindings = <
@@ -250,7 +250,7 @@
       >;
     };
 
-    raise_layer {
+    gaming_layer {
       label = "GAMING";
       display-name = "Gaming";
       bindings = <
@@ -269,7 +269,7 @@
       >;
     };
 
-    symbols_layer {
+    sniping_layer {
       label = "SNIPING";
       display-name = "Sniping";
       bindings = <
