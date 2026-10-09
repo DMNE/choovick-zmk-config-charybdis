@@ -18,17 +18,17 @@
 // Can be used in both standalone (trackball_listener) and dongle mode (input_split_listener)
 #define CHARYBDIS_TRACKBALL_PROCESSORS \
     snipe { \
-        layers = <Sniping>; \
+        layers = <SNIPING>; \
         input-processors = <&zip_xy_scaler 1 3>; \
     }; \
     \
     scroll { \
-        layers = <Functional>; \
+        layers = <FUNCTIONAL>; \
         input-processors = <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>, <&zip_xy_scaler 1 40>, <&zip_xy_to_scroll_mapper>; \
     }; \
     \
     move { \
-        layers = <qwerty Gaming>; \
+        layers = <QWERTY GAMING>; \
         input-processors = <&zip_xy_scaler 3 2>; \
     };
 
