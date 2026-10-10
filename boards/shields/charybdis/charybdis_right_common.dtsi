@@ -63,6 +63,8 @@
         invert-x;
         invert-y;
         force-awake;
+        zephyr,axis-x = <0>;
+        zephyr,axis-y = <1>;
         /* keep the sensor awake while ZMK activity state is ACTIVE,
            fallback to normal downshift mode after ZMK goes into IDLE / SLEEP mode.
            thus, the sensor would be a `wakeup-source` */
