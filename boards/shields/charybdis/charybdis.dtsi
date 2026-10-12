@@ -109,14 +109,14 @@
             // Right thumb bindings: 53=RET, 54=SYMBOLS, 55=RAISE
             // Physical coordinates per actual key positions from keymap comments
             //                       w   h    x    y     rot    rx    ry
-            , <&key_physical_attrs 100 100  518  420    1500   398   790>  // 48 (LALT) - physical: 3rd from left
-            , <&key_physical_attrs 100 100  482  520    1500   398   790>  // 49 (LOWER) - physical: 5th from left
             , <&key_physical_attrs 100 100  348  414    900    398   790>  // 50 (POINTER) - physical: 1st from left
             , <&key_physical_attrs 100 100  418  414    1500   398   790>  // 51 (gui_ctrlb) - physical: 2nd from left
+            , <&key_physical_attrs 100 100  518  420    1500   398   790>  // 48 (LALT) - physical: 3rd from left
             , <&key_physical_attrs 100 100  382  514    1500   398   790>  // 52 (LCTRL) - physical: 4th from left
-            , <&key_physical_attrs 100 100 1052  520 (-3000)  1102   790>  // 53 (RET) - physical: 3rd from right (bottom)
-            , <&key_physical_attrs 100 100 1067  414 (-1500)  1102   790>  // 54 (SYMBOLS) - physical: 2nd from right (top)
+            , <&key_physical_attrs 100 100  482  520    1500   398   790>  // 49 (LOWER) - physical: 5th from left
             , <&key_physical_attrs 100 100 1052  420 (-3000)  1102   790>  // 55 (RAISE) - physical: 1st from right (top)
+            , <&key_physical_attrs 100 100 1067  414 (-1500)  1102   790>  // 54 (SYMBOLS) - physical: 2nd from right (top)
+            , <&key_physical_attrs 100 100 1052  520 (-3000)  1102   790>  // 53 (RET) - physical: 3rd from right (bottom)
             ;
     };
 
